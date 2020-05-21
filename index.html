@@ -3,11 +3,186 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/lib/12bool.css">
     <link rel="stylesheet" href="css/style.css">
     <title>html-css-12bool</title>
   </head>
   <body>
-    
+
+    <div class="container">
+        <div class="pink">
+            <!-- Prima riga da 12 colonne -->
+            <div class="container">
+                <div class="col-1">
+                    <div class="box">
+                        1 col
+                    </div>
+                </div>
+                <div class="col-1">
+                    <div class="box">
+                        1 col
+                    </div>
+                </div>
+                <div class="col-1">
+                    <div class="box">
+                        1 col
+                    </div>
+                </div>
+                <div class="col-1">
+                    <div class="box">
+                        1 col
+                    </div>
+                </div>
+                <div class="col-1">
+                    <div class="box">
+                        1 col
+                    </div>
+                </div>
+                <div class="col-1">
+                    <div class="box">
+                        1 col
+                    </div>
+                </div>
+                <div class="col-1">
+                    <div class="box">
+                        1 col
+                    </div>
+                </div>
+                <div class="col-1">
+                    <div class="box">
+                        1 col
+                    </div>
+                </div>
+                <div class="col-1">
+                    <div class="box">
+                        1 col
+                    </div>
+                </div>
+                <div class="col-1">
+                    <div class="box">
+                        1 col
+                    </div>
+                </div>
+                <div class="col-1">
+                    <div class="box">
+                        1 col
+                    </div>
+                </div>
+                <div class="col-1">
+                    <div class="box">
+                        1 col
+                    </div>
+                </div>
+            </div>
+
+            <!-- Seconda riga con colonna unica -->
+            <div class="container">
+                <div class="col-12">
+                    <div class="box">
+                        12 col
+                    </div>
+                </div>
+            </div>
+
+            <!-- Terza riga col-8 col-2 col-2 -->
+            <div class="container">
+                <div class="col-8">
+                    <div class="box">
+                        8 col
+                    </div>
+                </div>
+                <div class="col-2">
+                    <div class="box">
+                        2 col
+                    </div>
+                </div>
+                <div class="col-2">
+                    <div class="box">
+                        2 col
+                    </div>
+                </div>
+            </div>
+
+            <!-- Quarta riga col-1 col-2 col-2 col-6 col-1 -->
+            <div class="container">
+                <div class="col-1">
+                    <div class="box">
+                        1 col
+                    </div>
+                </div>
+                <div class="col-2">
+                    <div class="box">
+                        2 col
+                    </div>
+                </div>
+                <div class="col-2">
+                    <div class="box">
+                        2 col
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="box">
+                        6 col
+                    </div>
+                </div>
+                <div class="col-1">
+                    <div class="box">
+                        1 col
+                    </div>
+                </div>
+            </div>
+
+            <!-- Quinta/Ultima riga col-6 col-6 con griglia annidata -->
+            <div class="container">
+                <div class="col-6">
+                    <!-- Container annidato con col-2 col-2 col-8 -->
+                    <div class="container">
+                        <div class="col-2">
+                            <div class="box">
+                                <div class="nest">
+                                    2 col
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-2">
+                            <div class="box">
+                                <div class="nest">
+                                    2 col
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-8">
+                            <div class="box">
+                                <div class="nest">
+                                    8 col
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <!-- Container annidato con col-6 col-6 -->
+                    <div class="container">
+                        <div class="col-6">
+                            <div class="box">
+                                <div class="nest">
+                                    6 col
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-6">
+                            <div class="box">
+                                <div class="nest">
+                                    6 col
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
   </body>
 </html>

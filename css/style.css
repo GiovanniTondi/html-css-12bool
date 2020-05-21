@@ -1,0 +1,26 @@
+/* Regole generali */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* contenuto */
+.pink {
+    background-color: #f5a2d2;
+}
+
+.box {
+    text-align: center;
+    border: solid 1px #000;
+    padding: 5px 2%;
+    /* DEBUG */
+    height: 250px;
+    line-height: 250px;
+}
+
+.nest {
+    height: 100%;
+    background-color: #d94a5b;
+}
